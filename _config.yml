@@ -36,3 +36,14 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  polls:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: polls
+    values:
+      layout: poll
