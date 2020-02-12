@@ -9,7 +9,7 @@ layout: master
       <div class="card-body">
         <h5 class="card-title">{{ poll.country }}</h5>
         <p class="card-text">{{ poll.content | truncate: 120 | markdownify }}</p>
-        <a href="{{ poll.url }}" class="btn btn-primary">Ver más</a>
+        <a href="{{ poll.url | relative_url }}" class="btn btn-primary">Ver más</a>
       </div>
     </div>
   </div>

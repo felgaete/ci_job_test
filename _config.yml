@@ -17,8 +17,8 @@ title: Elecciones Latinoamérica 2020
 email: --
 description: >- # this means to ignore newlines until "baseurl:"
   Sitio de postulación Ciudadanía Inteligente
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ci_job_test" # the subpath of your site, e.g. /blog
+url: "https://felgaete.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: felgaete
 
 # Build settings
