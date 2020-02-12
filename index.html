@@ -1,0 +1,17 @@
+---
+layout: master
+---
+<div class="row">
+  {% for poll in site.polls %}
+  <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12">
+    <div class="card bg-light mb-4">
+      <img src="{{ poll.flag }}" alt="{{ poll.country }}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{ poll.country }}</h5>
+        <p class="card-text">{{ poll.content | truncate: 120 | markdownify }}</p>
+        <a href="{{ poll.url }}" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
